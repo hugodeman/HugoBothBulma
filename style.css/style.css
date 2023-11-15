@@ -1,0 +1,73 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    background-color: rgb(139, 33, 33);
+}
+
+main {
+    margin: 5vh 10vw;
+}
+
+
+.title {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 0vh;
+    color: rgba(0, 0, 0, 0.582);
+    border-bottom: 2px solid rgba(101, 99, 99, 0.803)
+}
+
+nav {
+    padding: 3vh 3vw;
+}
+
+.section {
+    padding-top: 0;
+}
+
+h2 {
+    padding-top: 5vh;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.449);
+}
+
+.tour {
+    border: 3px solid rgba(0, 0, 0, 0.708);
+    margin: 8vh;
+    padding: 5vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.785);
+}
+
+.tour h1 {
+    color: rgba(255, 255, 255, 0.297);
+}
+
+.columns {
+    color: rgba(255, 1, 1, 0.605);
+    font-size: 2rem;
+    padding: 3vh;
+}
+
+.footer {
+    background-color: rgba(39, 38, 38, 0.94);
+    color: rgba(255, 255, 255, 0.571);
+    display: flex;
+}
+
+.footer .content {
+    padding: 0px 2vw;
+    margin-bottom: 0px;
+}
+
+.section-tour {
+    padding: 5vh 10vw;
+}
+
+.label {
+    color: rgb(209, 200, 200);
+}
+
+input[type=checkbox] {
+    color: white;
+}
